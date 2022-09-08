@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .parent{
+            width: 100%;
+            float: center;
+        }
+        .header{
+            text-align: center;
+            background-color:lightblue;
+            height: 100px;
+            width: 100%;
+            border: 4px solid darkblue;
+            padding: 10px;
+        }
+        .left{
+            width: 20%;
+            height: 600px;
+            background-color: rgb(237, 136, 68);
+            border: 4px solid red;
+            float: left;
+        }
+        .center{
+            width: 50%;
+            height: 600px;
+            background-color: rgb(255, 171, 246);
+            border: 4px solid rgb(134, 18, 197);
+            float: left;
+        }
+        .right{
+            width: 30%;
+            height: 600px;
+            background-color:bisque;
+            border: 4px solid rgb(246, 133, 104);
+            float: left;
+        }
+        .footer{
+            text-align: center;
+            background-color:rgb(173, 179, 230);
+           border: 2px solid brown;
+           color: black;
+           padding: 20px;
+
+        }
+        .vertical{
+            list-style-type: none;
+            margin: 0;
+            margin-top: 20px;
+            padding: 10px;
+            width: 200px;
+            position: fixed;
+            overflow: auto;
+            height: 100%;
+        }
+        li a.verticalnav{
+            display: block;
+            color: blue;
+            text-align: left;
+            padding: 5px 5px;
+            text-decoration: none;
+            font-size: larger;
+           
+        }
+        li a.verticalnav:hover{
+            background-color: bisque;
+        }
+        #active{
+            background-color: rgb(201, 152, 247);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="header">
+           <h2>Online Training</h2>
+        </div>
+        <div>
+            <div class="left">
+            <ul class="vertical">
+            <li><a  id="active" class="verticalnav" href="">HTML,CSS,JavaScript</a> </li>
+            <li><a class="verticalnav" href="">HTML </a></li> 
+            <li><a class="verticalnav" href="">CSS </a> </li>
+            
+            <li><a class="verticalnav"  href="">JavaScript</a></li>
+            </ul>
+            </div>
+            <div class="center">
+            
+            <p><img src="html-basic.png" alt="no" height="100px" width="150px" style="float: left;">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript. HTML is a type of markup language. It encapsulates, or “marks up” data within HTML tags, which define the data and describe its purpose on the webpage.</p><hr>
+            <p><img src="CSS.3.svg.png" alt="no" height="100px" width="150px" style="float: right;">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed. </p><hr>
+            <p><img src="js1.jpeg" alt="no" height="80px" width="150px" style="float: left;">What is the JavaScript used for?
+                Javascript is used by programmers across the world to create dynamic and interactive web content like applications and browsers. JavaScript is so popular that it's the most used programming language in the world, used as a client-side programming language by 97.0% of all websites. </p><hr>
+
+            <p><img src="js.jpg" alt="no" height="100px" width="150px" style="float: right;">* HTML provides the basic structure of sites, which is enhanced and modified by other technologies like CSS and JavaScript. <br>
+                * CSS is used to control presentation, formatting, and layout. <br>
+                * JavaScript is used to control the behavior of different elements. <br>
+                JavaScript is the programming language, we use HTML to structure the site, and we use CSS to design and layout the web page.</p>
+        </div>
+            <div class="right">
+                <iframe width="300" height="305" src="https://www.youtube.com/embed/9NTrwrfI-X4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/VeaAMwpiLbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="footer">
+            <h2> &copy; xyzonlinetraining</h2>
+         </div>
+    </div>
+</body>
+</html>
